@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>The Game</title>
+</head>
+
+<body>
+
+    <h1 class="hide-me disable-select">Level 0</h1>
+
+    <div class="container disable-select">
+        <div class="row">
+            <div type="button" id="green" class="btn green"></div>
+            <div type="button" id="red" class="btn red"></div>
+        </div>
+
+        <div class="row">
+            <div type="button" id="yellow" class="btn yellow"></div>
+            <div type="button" id="blue" class="btn blue"></div>
+        </div>
+
+        <div class="row-btn">
+            <span type="button" class="start-btn">Start Game</span>
+        </div>
+    </div>
+
+    <div class="high-score disable-select">Your Highscore <span id="score">_</span></div>
+
+
+    <footer><em>Thanks to <strong>Angela</strong> on <a
+                href="https://www.udemy.com/course/the-complete-web-development-bootcamp">udemy</a> for the awesome
+            lectures.</em></footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="game.js" charset="UTF-8"></script>
+</body>
+
+</html>
